@@ -9,26 +9,24 @@ h1 {
 section {
     position: relative;
     float: left;
-    text-align: justify;
     box-sizing: border-box;
-    width: 50%;
-    height: 150px;
-    border: 1px solid black;
-    margin: 10px;
+    padding: 10px;
 }
 
 section > h2 {
     margin: 0px;
     width: 175px;
     position: absolute;
-    top: -1px;
-    right: -1px;
+    top: 26px;
+    right: 10px;
     text-align: center;
     border: 1px solid black;
 }
 
 section > p {
-    padding: 25px 10px 0px;
+    padding: 40px 10px 10px;
+    border: 1px solid black;
+    text-align: justify;
 }
 
 @media (min-width: 992px) {
