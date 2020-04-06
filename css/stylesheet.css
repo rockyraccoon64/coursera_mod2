@@ -1,0 +1,53 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    position: relative;
+    float: left;
+    text-align: justify;
+    box-sizing: border-box;
+    width: 50%;
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+section > h2 {
+    margin: 0px;
+    width: 175px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+section > p {
+    padding: 25px 10px 0px;
+}
+
+@media (min-width: 992px) {
+    .row-lg-4 {
+        width: 33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .row-md-6 {
+        width: 50%;
+    }
+    .row-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        width: 100%;
+    }
+}
