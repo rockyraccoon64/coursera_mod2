@@ -59,7 +59,7 @@ section > p {
 }
 
 @media (max-width: 767px) {
-    section {
+    .row-xs-12 {
         width: 100%;
     }
 }
